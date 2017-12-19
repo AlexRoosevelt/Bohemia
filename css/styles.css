@@ -1,0 +1,103 @@
+
+/* Flex grid
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+
+.flex-row   { display: flex;}
+.flex-col   { flex: 1; }
+.flex-col-1 { flex: 0 0 8.333333333333332%;  }
+.flex-col-2 { flex: 0 0 16.666666666666664%; }
+.flex-col-3 { flex: 0 0 25%; }
+.flex-col-4 { flex: 0 0 33.33333333333333%;  }
+.flex-col-5 { flex: 0 0 41.66666666666667%;  }
+.flex-col-6 { flex: 0 0 50%; }
+.flex-col-7 { flex: 0 0 58.333333333333336%; }
+.flex-col-8 { flex: 0 0 66.66666666666666%;  }
+.flex-col-9 { flex: 0 0 75%; }
+.flex-col-10{ flex: 0 0 83.33333333333334%;  }
+.flex-col-11{ flex: 0 0 91.66666666666666%;  }
+
+.order-1 { order: 1; }
+.order-2 { order: 2; }
+.order-3 { order: 3; }
+.order-4 { order: 4; }
+.order-5 { order: 5; }
+.order-6 { order: 6; }
+.order-7 { order: 7; }
+.order-8 { order: 8; }
+.order-9 { order: 9; }
+.order-10 { order: 10; }
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* Global
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+
+body {
+  font-family: 'Open Sans', Arial;
+  background: #fff;
+}
+
+/* Header
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+
+.header__logo {
+  display: table;
+}
+
+.header__logo-img {
+  width: 10em;
+}
+
+.header-nav {
+
+}
+
+.header-nav__list {
+  list-style: none;
+  display: flex;
+}
+
+.header-nav__li {
+
+}
+
+.header-nav__a {
+  padding: 2em;
+  text-decoration: none;
+  display: inline-block;
+  color: #ccc;
+}
+
+.header-nav__a:hover {
+  color: #e4a979;
+  background: #faefe6;
+}
+
+/* Main Title
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+
+.main-title {
+  padding: 2em 0;
+  background: #faefe6;
+  border-bottom: 1px solid chocolate;
+}
+
+.main-title__title {
+  font-weight: 100;
+  text-align: center;
+  font-size: 2em;
+  color: chocolate;
+}
